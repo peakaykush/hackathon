@@ -1,5 +1,11 @@
 import "./globals.css";
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export const metadata = {
   title: "AzurePrep Pro — Smart AZ-900 Quiz Builder",
   description: "Master the Microsoft Azure Fundamentals (AZ-900) exam with smart quizzes, instant feedback, and detailed explanations. Built for the #1MillionDevs Movement.",

@@ -14,7 +14,7 @@ export const TOPICS = [
     id: 'cloud-concepts',
     name: 'Cloud Concepts',
     weight: '25–30%',
-    icon: '☁️',
+    icon: 'CC',
     iconClass: 'cloud',
     description: 'Cloud computing fundamentals, benefits of cloud services, and cloud service types (IaaS, PaaS, SaaS).',
     subtopics: ['Cloud Computing', 'Benefits of Cloud Services', 'Cloud Service Types']
@@ -23,7 +23,7 @@ export const TOPICS = [
     id: 'azure-architecture',
     name: 'Azure Architecture & Services',
     weight: '35–40%',
-    icon: '🏗️',
+    icon: 'AS',
     iconClass: 'arch',
     description: 'Core Azure components, compute & networking, storage services, and identity & security.',
     subtopics: ['Core Architecture', 'Compute & Networking', 'Storage Services', 'Identity & Security']
@@ -32,7 +32,7 @@ export const TOPICS = [
     id: 'azure-management',
     name: 'Azure Management & Governance',
     weight: '30–35%',
-    icon: '⚙️',
+    icon: 'MG',
     iconClass: 'mgmt',
     description: 'Cost management, governance tools, resource deployment, and monitoring in Azure.',
     subtopics: ['Cost Management', 'Governance & Compliance', 'Resource Deployment', 'Monitoring Tools']
